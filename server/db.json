@@ -1,0 +1,605 @@
+{
+  "users": [
+    {
+      "email": "admin@learnwithsumit.com",
+      "password": "$2a$10$/TDPCTU28mFzKnSsW2pHSu512mpMKxLf8eiPbcTFLSNL87tbZBp3W",
+      "role": "admin",
+      "name": "LWS Admin",
+      "id": 1
+    },
+    {
+      "email": "saad.hasan@learnwithsumit.com",
+      "password": "$2a$10$4iJEmSkM1Dq6WMRb0SuJeeic1SEB9TrH3gw5IT441Adox/ZZXj2Ae",
+      "role": "student",
+      "name": "Saad Hasan",
+      "id": 2
+    },
+    {
+      "email": "akash.ahmed@learnwithsumit.com",
+      "password": "$2a$10$TNsYpL6ffKBrupNNvdJlleJlgIkp1C1xQJCbiv7HAl5Ggs.kucie2",
+      "role": "student",
+      "name": "Akash Ahmed",
+      "id": 3
+    },
+    {
+      "email": "md.salahuddin@learnwithsumit.com",
+      "password": "$2a$10$dcWjzIi4mLAERlWE4nfJW.1/mvC9FXqZU8A2V1rPlsqIrP3kWa8PG",
+      "role": "student",
+      "name": "Mohammad Salahuddin",
+      "id": 4
+    },
+    {
+      "email": "ferdous.shohag@learnwithsumit.com",
+      "password": "$2a$10$IZ6eXNauYSqMhl38Wc46texV2vjGZz.Zl66j7hrnW6ZDSDcMlPWeu",
+      "role": "student",
+      "name": "Ferdous",
+      "id": 5
+    },
+    {
+      "email": "riyadh.vai@learnwithsumit.com",
+      "password": "$2a$10$e4XPY48UpqmAj8teZ2je8.qd5AEk6hWm5PQwDoJsCsE91qlDPJx1G",
+      "role": "student",
+      "name": "Riyadh",
+      "id": 6
+    },
+    {
+      "email": "arif.almas@learnwithsumit.com",
+      "password": "$2a$10$NN4pXB4tBMw.ySrMDPMymepSGDdcvKzx/RjNCrdNTENOFVLWCWGOi",
+      "role": "student",
+      "name": "Arif",
+      "id": 7
+    },
+    {
+      "email": "arifur.rahman.cse1@gmail.com",
+      "password": "$2a$10$7CU12aF.wC/NbCFY6DHOtuLTzO.1x4l/Yp/XFtOmH/tL7iccKR1KC",
+      "name": "Arifur Rahman",
+      "role": "student",
+      "id": 8
+    },
+    {
+      "email": "a@a.com",
+      "password": "$2a$10$/mUDxE41TxUXa/gguwCEIeov6vo.nwyPnFBmgHNI9SXQLpGzauu4K",
+      "name": "Amar Nam Razon",
+      "role": "student",
+      "id": 9
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "title": "Debounce Function in JavaScript ",
+      "description": "In this video, I have explained about the debounce function in JavaScript. This is a common question interviewers ask at Job Interviews. If you watch this video carefully, you will understand what is debounce and how to handle it with custom debounce function.",
+      "url": "https://www.youtube.com/embed/dD9O8DnIBj4",
+      "views": "51.2K",
+      "duration": "5:30",
+      "createdAt": "2023-01-15T15:17:01.727Z"
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Job Interview Questions",
+      "description": "JavaScript Tips and Tricks - JavaScript Job Interview Questions - Bangla Tutorial \nIn this video, I have shown 8 more JavaScript pro tips that will make a JavaScript Developer's life easier.",
+      "url": "https://www.youtube.com/embed/E9_R88eKcBM",
+      "views": "551.2K",
+      "duration": "31:30",
+      "createdAt": "2023-02-24T17:59:00.000Z"
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "title": "Assignment 1 - Implement Debounce Function",
+      "video_id": 1,
+      "video_title": "Debounce Function in JavaScript ",
+      "totalMark": 100
+    },
+    {
+      "id": 2,
+      "title": "Assignment 2 - Implement Best Practices",
+      "video_id": 2,
+      "video_title": "#2 JavaScript Tips and Tricks - JavaScript Job Interview Questions",
+      "totalMark": 100
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 2,
+      "question": "Which of the following is an example of a situation where you would use the Debounce function?",
+      "video_id": 1,
+      "video_title": "Debounce Function in JavaScript ",
+      "options": [
+        {
+          "id": "1",
+          "option": "A search bar where the results are displayed as you type.",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "option": "A button that performs an action when clicked.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "option": "An animation that plays when a user hovers over an element.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "option": "All of the above.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Bangladesh Er Rajdhano er Nam Ki",
+      "video_id": 2,
+      "video_title": "JavaScript Job Interview Questions",
+      "options": [
+        {
+          "id": 1,
+          "option": "Chittagong",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "option": "Cumilla",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "option": "Dhaka",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "option": "Uttara",
+          "isCorrect": false
+        }
+      ],
+      "id": 4
+    },
+    {
+      "question": "India Er Capital",
+      "video_id": 2,
+      "video_title": "JavaScript Job Interview Questions",
+      "options": [
+        {
+          "id": 1,
+          "option": "Delli",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "option": "Mumbai",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "option": "Kolkata",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "option": "Chennai",
+          "isCorrect": false
+        }
+      ],
+      "id": 5
+    },
+    {
+      "question": "Kon Deshe Jete Chao",
+      "video_id": 2,
+      "video_title": "JavaScript Job Interview Questions",
+      "options": [
+        {
+          "id": 1,
+          "option": "UK",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "option": "Canada",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "option": "AUS",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "option": "USA",
+          "isCorrect": true
+        }
+      ],
+      "id": 6
+    },
+    {
+      "question": "Birth Place",
+      "video_id": 2,
+      "video_title": "JavaScript Job Interview Questions",
+      "options": [
+        {
+          "id": 1,
+          "option": "Dhaka",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "option": "Ptk",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "option": "Amtali",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "option": "Barishal",
+          "isCorrect": false
+        }
+      ],
+      "id": 7
+    },
+    {
+      "question": "Which Song You Like the most",
+      "video_id": 2,
+      "video_title": "JavaScript Job Interview Questions",
+      "options": [
+        {
+          "id": 1,
+          "option": "Bangla",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "option": "English",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "option": "Hindi",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "option": "Urdu",
+          "isCorrect": false
+        }
+      ],
+      "id": 8
+    },
+    {
+      "question": "Your University Sub",
+      "video_id": 2,
+      "video_title": "JavaScript Job Interview Questions",
+      "options": [
+        {
+          "id": 1,
+          "option": "Pharmacy",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "option": "Arch",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "option": "CSE",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "option": "Bio",
+          "isCorrect": false
+        }
+      ],
+      "id": 9
+    }
+  ],
+  "assignmentMark": [
+    {
+      "student_id": 9,
+      "student_name": "Amar Nam Razon",
+      "assignment_id": 1,
+      "title": "Assignment 1 - Implement Debounce Function",
+      "createdAt": "2023-04-06T11:15:09.439Z",
+      "totalMark": 100,
+      "mark": "100",
+      "repo_link": "sdfgdfg",
+      "status": "published",
+      "id": 1
+    },
+    {
+      "student_id": 3,
+      "student_name": "Akash Ahmed",
+      "assignment_id": 1,
+      "title": "Assignment 1 - Implement Debounce Function",
+      "createdAt": "2023-04-07T09:20:21.132Z",
+      "totalMark": 100,
+      "mark": "55",
+      "repo_link": "ddddddddddd",
+      "status": "published",
+      "id": 2
+    },
+    {
+      "student_id": 3,
+      "student_name": "Akash Ahmed",
+      "assignment_id": 3,
+      "title": "I love ",
+      "createdAt": "2023-04-07T09:20:27.819Z",
+      "totalMark": "500",
+      "mark": "50",
+      "repo_link": "dddddd",
+      "status": "published",
+      "id": 3
+    },
+    {
+      "student_id": 4,
+      "student_name": "Mohammad Salahuddin",
+      "assignment_id": 1,
+      "title": "Assignment 1 - Implement Debounce Function",
+      "createdAt": "2023-04-07T09:21:08.145Z",
+      "totalMark": 100,
+      "mark": "55",
+      "repo_link": "asssssssss",
+      "status": "published",
+      "id": 4
+    },
+    {
+      "student_id": 5,
+      "student_name": "Ferdous",
+      "assignment_id": 1,
+      "title": "Assignment 1 - Implement Debounce Function",
+      "createdAt": "2023-04-07T09:23:54.892Z",
+      "totalMark": 100,
+      "mark": "45",
+      "repo_link": "werfdf",
+      "status": "published",
+      "id": 5
+    },
+    {
+      "student_id": 5,
+      "student_name": "Ferdous",
+      "assignment_id": 2,
+      "title": "Assignment 2 - Implement Best Practices",
+      "createdAt": "2023-04-07T09:24:00.956Z",
+      "totalMark": 100,
+      "mark": "100",
+      "repo_link": "dsf",
+      "status": "published",
+      "id": 6
+    },
+    {
+      "student_id": 5,
+      "student_name": "Ferdous",
+      "assignment_id": 4,
+      "title": "dsfg",
+      "createdAt": "2023-04-07T09:24:08.213Z",
+      "totalMark": "1000",
+      "mark": "100",
+      "repo_link": "ds",
+      "status": "published",
+      "id": 7
+    },
+    {
+      "student_id": 6,
+      "student_name": "Riyadh",
+      "assignment_id": 1,
+      "title": "Assignment 1 - Implement Debounce Function",
+      "createdAt": "2023-04-07T09:25:41.064Z",
+      "totalMark": 100,
+      "mark": "25",
+      "repo_link": "aaaa",
+      "status": "published",
+      "id": 8
+    },
+    {
+      "student_id": 6,
+      "student_name": "Riyadh",
+      "assignment_id": 3,
+      "title": "I love ",
+      "createdAt": "2023-04-07T09:26:00.842Z",
+      "totalMark": "500",
+      "mark": "225",
+      "repo_link": "aaaa",
+      "status": "published",
+      "id": 9
+    },
+    {
+      "student_id": 7,
+      "student_name": "Arif",
+      "assignment_id": 1,
+      "title": "Assignment 1 - Implement Debounce Function",
+      "createdAt": "2023-04-07T09:53:18.550Z",
+      "totalMark": 100,
+      "mark": "50",
+      "repo_link": "aaaaaaaaaaaa",
+      "status": "published",
+      "id": 10
+    },
+    {
+      "student_id": 8,
+      "student_name": "Arifur Rahman",
+      "assignment_id": 1,
+      "title": "Assignment 1 - Implement Debounce Function",
+      "createdAt": "2023-04-07T09:56:04.374Z",
+      "totalMark": 100,
+      "mark": "55",
+      "repo_link": "aaa",
+      "status": "published",
+      "id": 11
+    },
+    {
+      "student_id": 9,
+      "student_name": "Amar Nam Razon",
+      "assignment_id": 2,
+      "title": "Assignment 2 - Implement Best Practices",
+      "createdAt": "2023-04-07T16:44:08.128Z",
+      "totalMark": 100,
+      "mark": "100",
+      "repo_link": "Dekhi",
+      "status": "published",
+      "id": 12
+    }
+  ],
+  "quizMark": [
+    {
+      "id": 1,
+      "student_id": 2,
+      "student_name": "Saad Hasan",
+      "video_id": 1,
+      "video_title": "Debounce Function in JavaScript - JavaScript Job Interview question",
+      "totalQuiz": 2,
+      "totalCorrect": 1,
+      "totalWrong": 1,
+      "totalMark": 10,
+      "mark": 5
+    },
+    {
+      "student_id": 9,
+      "student_name": "Amar Nam Razon",
+      "video_id": 3,
+      "video_title": "hrty",
+      "totalQuiz": 2,
+      "totalCorrect": 1,
+      "totalWrong": 1,
+      "totalMark": 10,
+      "mark": 5,
+      "id": 2
+    },
+    {
+      "student_id": 9,
+      "student_name": "Amar Nam Razon",
+      "video_id": 3,
+      "video_title": "hrty",
+      "totalQuiz": 2,
+      "totalCorrect": 2,
+      "totalWrong": 0,
+      "totalMark": 10,
+      "mark": 10,
+      "id": 3
+    },
+    {
+      "student_id": 3,
+      "student_name": "Akash Ahmed",
+      "video_id": 1,
+      "video_title": "Debounce Function in JavaScript - JavaScript Job Interview question",
+      "totalQuiz": 1,
+      "totalCorrect": 1,
+      "totalWrong": 1,
+      "totalMark": 5,
+      "mark": 5,
+      "id": 4
+    },
+    {
+      "student_id": 3,
+      "student_name": "Akash Ahmed",
+      "video_id": 3,
+      "video_title": "hrty",
+      "totalQuiz": 2,
+      "totalCorrect": 1,
+      "totalWrong": 2,
+      "totalMark": 10,
+      "mark": 5,
+      "id": 5
+    },
+    {
+      "student_id": 4,
+      "student_name": "Mohammad Salahuddin",
+      "video_id": 1,
+      "video_title": "Debounce Function in JavaScript - JavaScript Job Interview question",
+      "totalQuiz": 1,
+      "totalCorrect": 0,
+      "totalWrong": 2,
+      "totalMark": 5,
+      "mark": 0,
+      "id": 6
+    },
+    {
+      "student_id": 5,
+      "student_name": "Ferdous",
+      "video_id": 3,
+      "video_title": "hrty",
+      "totalQuiz": 2,
+      "totalCorrect": 1,
+      "totalWrong": 2,
+      "totalMark": 10,
+      "mark": 5,
+      "id": 7
+    },
+    {
+      "student_id": 5,
+      "student_name": "Ferdous",
+      "video_id": 1,
+      "video_title": "Debounce Function in JavaScript - JavaScript Job Interview question",
+      "totalQuiz": 1,
+      "totalCorrect": 0,
+      "totalWrong": 2,
+      "totalMark": 5,
+      "mark": 0,
+      "id": 8
+    },
+    {
+      "student_id": 6,
+      "student_name": "Riyadh",
+      "video_id": 1,
+      "video_title": "Debounce Function in JavaScript - JavaScript Job Interview question",
+      "totalQuiz": 1,
+      "totalCorrect": 0,
+      "totalWrong": 2,
+      "totalMark": 5,
+      "mark": 0,
+      "id": 9
+    },
+    {
+      "student_id": 6,
+      "student_name": "Riyadh",
+      "video_id": 3,
+      "video_title": "hrty",
+      "totalQuiz": 2,
+      "totalCorrect": 0,
+      "totalWrong": 3,
+      "totalMark": 10,
+      "mark": 0,
+      "id": 10
+    },
+    {
+      "student_id": 7,
+      "student_name": "Arif",
+      "video_id": 1,
+      "video_title": "Debounce Function in JavaScript - JavaScript Job Interview question",
+      "totalQuiz": 1,
+      "totalCorrect": 1,
+      "totalWrong": 1,
+      "totalMark": 5,
+      "mark": 5,
+      "id": 11
+    },
+    {
+      "student_id": 8,
+      "student_name": "Arifur Rahman",
+      "video_id": 1,
+      "video_title": "Debounce Function in JavaScript - JavaScript Job Interview question",
+      "totalQuiz": 1,
+      "totalCorrect": 1,
+      "totalWrong": 1,
+      "totalMark": 5,
+      "mark": 5,
+      "id": 12
+    },
+    {
+      "student_id": 9,
+      "student_name": "Amar Nam Razon",
+      "video_id": 2,
+      "video_title": "JavaScript Job Interview Questions",
+      "totalQuiz": 6,
+      "totalCorrect": 6,
+      "totalWrong": 0,
+      "totalMark": 30,
+      "mark": 30,
+      "id": 13
+    }
+  ]
+}
